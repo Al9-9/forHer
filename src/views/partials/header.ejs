@@ -1,0 +1,38 @@
+<header class="header">
+    <div class="box-container">
+        <!-- <div class="burger-menu" >  
+            <a href="/"> <img src="../../../design/icons/logo.png" alt="logo pizza"></a>   
+            <i class="fas fa-bars"></i>
+        </div> -->
+        <!-- Search-bar -->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+
+        <h1 class="head-title">Para ella</h1>
+        <nav class="second-nav">
+            <div class="box-nav" >
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/productos">Productos</a></li>
+              <% if (!locals.userLogin) {%> 
+                <li><a href="/aut/registro">Registrate</a></li>
+                <li><a href="/aut/login">Ingresa</a></li>   
+                <% } else if (locals.userLogin.role==="Admin"){ %>
+                    <li><a href="/admin">Lista Admin</a></li>
+                        <li class="text-center" ><a href="/perfil">Mi perfil </a>🟢</li>
+                        
+                        
+                    <% } else {%>
+                        <li><a href="/perfil">Mi perfil</a></li>
+               <% } %>
+            </ul>
+        </div>
+        </nav>
+    </div>
+</header>

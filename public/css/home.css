@@ -1,0 +1,27 @@
+.main-home{}
+.list-group{}
+li.list-group-item{}
+div#carouselExampleAutoplaying{}
+div#carouselExampleAutoplaying.carousel-inner{}
+div#carouselExampleAutoplaying.carousel-item{}
+
+
+
+div.container-cards{
+    display: flex;
+    justify-content: center;
+}
+div.container-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.card{
+    margin: 30px;
+}
+div.card img{}
+div.card-body{}
+div h5.card-title{}
+div p.card-text{}
+div a.btn.btn-primary{}
+

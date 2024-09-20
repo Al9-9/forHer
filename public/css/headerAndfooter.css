@@ -1,0 +1,19 @@
+/* Header css */
+header.header{}
+div.box-container{}
+nav.navbar{}
+nav div.container-fluid{}
+nav div form{}
+nav div form input{}
+nav div form button{}
+
+h1.head-title{
+    color: #4b467e;
+    text-align: center;
+    margin: 2rem;
+}
+nav.second-nav{}
+
+nav.second-nav.box-nav{}
+nav.second-nav.box-nav ul{}
+nav.second-nav.box-nav ul li{}

@@ -1,0 +1,18 @@
+/* Font-family */
+@import "https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap";
+/* Files css app */
+@import './general.css';
+@import './headerAndfooter.css';
+@import './home.css';
+@import './products.css';
+@import './forms.css';
+@import './cart.css';
+@import './detail.css';
+@import './admin.css';
+@import './burguer.css';
+@import './profileUser.css';
+
+/* font import */
+:root{
+    --lexend: "Lexend", sans-serif;
+}
