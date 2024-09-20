@@ -19,8 +19,15 @@ div.container-product{
 div.card{
     margin: 30px;
 }
-div.card img{}
-div.card-body{}
+div.card img{
+    height: 16rem;
+}
+div.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
 div h5.card-title{}
 div p.card-text{}
 div a.btn.btn-primary{}
