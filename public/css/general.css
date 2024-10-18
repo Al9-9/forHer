@@ -1,0 +1,21 @@
+*{
+    font-family: var(--lexend);
+    
+}
+a{
+    /* list-style: none; */
+    /* lighting-color: unset; */
+    text-decoration: none;
+    color: #d9418d;
+}
+li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: #d9418d36;
+}
