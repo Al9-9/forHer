@@ -4,6 +4,12 @@ li.list-group-item{}
 div#carouselExampleAutoplaying{}
 div#carouselExampleAutoplaying.carousel-inner{}
 div#carouselExampleAutoplaying.carousel-item{}
+.carousel-item img {
+    width: ;      /* Ancho completo del contenedor */
+    height: auto;     /* Altura automática para mantener la proporción */
+    max-height: 500px; /* Ajusta esta altura máxima según tus necesidades */
+    /* object-fit: cover; */ /* Cubre el área del contenedor, recortando la imagen si es necesario */
+}
 
 
 
@@ -31,4 +37,26 @@ div.card-body{
 div h5.card-title{}
 div p.card-text{}
 div a.btn.btn-primary{}
+.brands{
+display: flex;
+background-color: #86b7fe12;
+justify-content: center;
+}
+.brand{
+    /* background-color: #fff; */
+    height: 200px;
+    width: 80%;
+    /* border: 2px solid #00000000; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.brand p {
+    
+font-size: 1.5rem;
+    
+color: #000;
+}
 

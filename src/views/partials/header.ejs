@@ -5,16 +5,20 @@
             <i class="fas fa-bars"></i>
         </div> -->
         <!-- Search-bar -->
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-              </form>
-            </div>
-          </nav>
+      <div class="container-logo" style="display: flex;">
+          <h1 class="head-title"> <img src="/images/appImg/logo.png" style="width: 200px; height: 100px" alt=""></h1>
+          <form action="/buscar" method="GET" style="display: flex; justify-content: center; align-items: center;">
+            <input type="text" name="q" placeholder="Buscar..." style="padding: 5px; width: 600px; border: 1px solid #ccc; border-radius: 4px; margin-right: 10px;">
+            <button type="submit" style="padding: 5px 5px; background-color: #ffffff; color: rgb(0, 0, 0); border: none; border-radius: 4px; cursor: pointer;">
+                Buscar
+            </button>
+        </form>
 
-        <h1 class="head-title">Para ella</h1>
+        <div class="div-i"><i class="fa-regular fa-user"></i></div>
+        <div class="div-i" ><i class="fa-solid fa-cart-shopping"></i></div>
+      </div>
+     
+
         <nav class="second-nav">
             <div class="box-nav" >
             <ul>

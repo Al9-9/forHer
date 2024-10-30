@@ -6,11 +6,28 @@ nav div.container-fluid{}
 nav div form{}
 nav div form input{}
 nav div form button{}
-
+.container-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+}
+.container-logo h1{}
+.container-logo form{
+    /* margin: 5rem; */
+}
+.container-logo form input{}
+.container-logo form button{} 
 h1.head-title{
     color: #4b467e;
     text-align: center;
     margin: 2rem;
+}
+div.div-i{
+}
+.div-i i{
+    font-size: 30px;
+    color: rgb(15 15 15 / 59%);
 }
 nav.second-nav{}
 

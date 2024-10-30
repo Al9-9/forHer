@@ -29,6 +29,7 @@
     "express-session": "^1.18.0",
     "express-validator": "^7.0.1",
     "force": "^0.0.3",
+    "gh-pages": "^6.2.0",
     "global": "^4.4.0",
     "ioredis": "^5.4.1",
     "method-override": "^3.0.0",
