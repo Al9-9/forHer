@@ -12,9 +12,6 @@
   background: #fff;
 }
 
-.swiper-pagination {
-  bottom: 1.25rem !important;
-}
 
 .swiper-slide {
   width: 18.75rem;
@@ -95,7 +92,10 @@
 .swiper-slide--six {
  
 }
+.swiper-pagination {
 
+  position: relative;
+  }
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
   background-image: none;
@@ -103,11 +103,19 @@
 
 @media screen and (min-width: 48rem) {
  
- 
+  .swiper-pagination {
+
+    position: relative;
+    }
 }
 
 @media screen and (min-width: 93.75rem) {
   .swiper {
    
   }
+  .swiper-pagination {
+
+position: relative;
+}
+
 }
