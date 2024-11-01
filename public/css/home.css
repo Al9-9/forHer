@@ -38,20 +38,32 @@ div h5.card-title{}
 div p.card-text{}
 div a.btn.btn-primary{}
 .brands{
-display: flex;
-background-color: #86b7fe12;
-justify-content: center;
+
+display: flex;
+
+background-color: #86b7fe12;
+
+justify-content: center;
 }
 .brand{
-    /* background-color: #fff; */
-    height: 200px;
-    width: 80%;
-    /* border: 2px solid #00000000; */
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
+    
+/* background-color: #fff; */
+    
+height: 200px;
+    
+width: 80%;
+    
+/* border: 2px solid #00000000; */
+    
+border-radius: 20px;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+margin: 1rem;
 }
 .brand p {
     
@@ -59,4 +71,3 @@ font-size: 1.5rem;
     
 color: #000;
 }
-
