@@ -4,39 +4,41 @@
             <a href="/"> <img src="../../../design/icons/logo.png" alt="logo pizza"></a>   
             <i class="fas fa-bars"></i>
         </div> -->
-        <!-- Search-bar -->
-      <div class="container-logo" style="display: flex;">
-          <h1 class="head-title"> <img src="/images/appImg/logo.png" style="width: 200px; height: 100px" alt=""></h1>
-          <form action="/buscar" method="GET" style="display: flex; justify-content: center; align-items: center;">
-            <input type="text" name="q" placeholder="Buscar..." style="padding: 5px; width: 600px; border: 1px solid #ccc; border-radius: 4px; margin-right: 10px;">
-            <button type="submit" style="padding: 5px 5px; background-color: #ffffff; color: rgb(0, 0, 0); border: none; border-radius: 4px; cursor: pointer;">
-                Buscar
-            </button>
-        </form>
+        <!-- Search-bar -->  <div class="cont-i">
+                <div class="div-i"><i class="fa-regular fa-user"></i></div>
+                <div class="div-i"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+        <div class="container-logo" style="display: flex;">
+            <h1 class="head-title"> <img src="/images/appImg/logo.png" style="width: 200px; height: 100px" alt=""></h1>
+            <form action="/buscar" method="GET" style="display: flex; justify-content: center; align-items: center;">
+                <input type="text" name="q" placeholder="Buscar...">
+                <button type="submit">
+                    Buscar
+                </button>
+            </form>
+          
 
-        <div class="div-i"><i class="fa-regular fa-user"></i></div>
-        <div class="div-i" ><i class="fa-solid fa-cart-shopping"></i></div>
-      </div>
-     
+        </div>
+
 
         <nav class="second-nav">
-            <div class="box-nav" >
-            <ul>
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/productos">Productos</a></li>
-              <% if (!locals.userLogin) {%> 
-                <li><a href="/aut/registro">Registrate</a></li>
-                <li><a href="/aut/login">Ingresa</a></li>   
-                <% } else if (locals.userLogin.role==="Admin"){ %>
-                    <li><a href="/admin">Lista Admin</a></li>
-                        <li class="text-center" ><a href="/perfil">Mi perfil </a>🟢</li>
-                        
-                        
-                    <% } else {%>
-                        <li><a href="/perfil">Mi perfil</a></li>
-               <% } %>
-            </ul>
-        </div>
+            <div class="box-nav">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/productos">Productos</a></li>
+                    <% if (!locals.userLogin) {%>
+                        <li><a href="/aut/registro">Registrate</a></li>
+                        <li><a href="/aut/login">Ingresa</a></li>
+                        <% } else if (locals.userLogin.role==="Admin" ){ %>
+                            <li><a href="/admin">Lista Admin</a></li>
+                            <li class="text-center"><a href="/perfil">Mi perfil </a>🟢</li>
+
+
+                            <% } else {%>
+                                <li><a href="/perfil">Mi perfil</a></li>
+                                <% } %>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>

@@ -7,11 +7,14 @@
     font-family: "Open Sans", sans-serif;
   }
   
+html {
+    font-size: 100%; 
+}
 a{
     /* list-style: none; */
     /* lighting-color: unset; */
     text-decoration: none;
-    color: #373b3e;
+    color: #fff;
 }
 li{
     list-style: none;
@@ -20,7 +23,13 @@ li{
 
 nav ul{
     display: flex;
-    justify-content: space-around;
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    /* border: solid; */
+    background-color: #bf4582;
+    /* font-family: sans-serif; */
+    padding: 0;
 }
 body{
     background-color: #d9418d36;

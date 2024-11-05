@@ -28,6 +28,8 @@ div.card{
 div.card img{
     height: 16rem;
 }
+div.img-con{}
+div.img-m{}
 div.card-body{
     display: flex;
     flex-direction: column;
@@ -70,4 +72,214 @@ margin: 1rem;
 font-size: 1.5rem;
     
 color: #000;
+}
+
+@media (max-width: 30rem) { /* 30rem = 480px */
+    body {
+        font-size: 1rem; /* 16px */
+    }
+    .main-home{}
+.list-group{}
+li.list-group-item{}
+div#carouselExampleAutoplaying{}
+div#carouselExampleAutoplaying.carousel-inner{}
+div#carouselExampleAutoplaying.carousel-item{}
+.carousel-item img {
+    width: ;      /* Ancho completo del contenedor */
+    height: auto;     /* Altura automática para mantener la proporción */
+    max-height: 500px; /* Ajusta esta altura máxima según tus necesidades */
+    /* object-fit: cover; */ /* Cubre el área del contenedor, recortando la imagen si es necesario */
+}
+
+
+
+div.container-cards{
+    display: flex;
+    justify-content: center;
+}
+div.container-product{
+    display: flex;
+    flex-direction: column;
+}
+div.card{
+    margin: 30px;
+}
+div.card img{
+    height: 16rem;
+}
+div.img-con{}
+div.img-m{}
+div.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+div h5.card-title{}
+div p.card-text{}
+div a.btn.btn-primary{}
+.brands{
+
+display: flex;
+
+background-color: #86b7fe12;
+
+justify-content: center;
+}
+.brand{
+    
+/* background-color: #fff; */
+    
+height: 200px;
+    
+width: 80%;
+    
+/* border: 2px solid #00000000; */
+    
+border-radius: 20px;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+margin: 1rem;
+}
+.brand p {
+    
+font-size: 1.5rem;
+    
+color: #000;
+}
+}
+@media (max-width: 48rem) { /* 48rem = 768px si el tamaño base es 16px */
+    body {
+        font-size: 1.125rem; /* 18px */
+    }
+    .main-home{}
+.list-group{}
+li.list-group-item{}
+div#carouselExampleAutoplaying{}
+div#carouselExampleAutoplaying.carousel-inner{}
+div#carouselExampleAutoplaying.carousel-item{}
+.carousel-item img {
+
+}
+
+
+
+div.container-cards{
+    
+}
+div.container-product{
+   
+flex-direction: column;
+   
+/* width: -webkit-fill-available; */
+}
+div.card{
+   
+}
+div.card img{
+  
+}
+div.img-con{
+    width: auto;
+}
+div img.img-m{
+    width: 19rem;
+    /* margin: 20px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    position: relative;
+    left: 6%;
+}
+div.card-body{
+  
+}
+div h5.card-title{}
+div p.card-text{}
+div a.btn.btn-primary{
+    background-color: #bf4582;
+    border: none;
+    border-radius: 0;
+}
+.brands{
+
+
+}
+.brand{
+
+}
+.brand p {
+    
+
+}
+}
+@media (min-width: 48.0625rem) { 
+    body {
+        font-size: 1.125rem; /* 18px */
+    }
+    .main-home{}
+.list-group{}
+li.list-group-item{}
+div#carouselExampleAutoplaying{}
+div#carouselExampleAutoplaying.carousel-inner{}
+div#carouselExampleAutoplaying.carousel-item{}
+.carousel-item img {
+
+}
+
+
+
+div.container-cards{
+    
+}
+div.container-product{
+   flex-direction: row;
+   /* width: -webkit-fill-available; */
+}
+div.card{
+   
+}
+div.card img{
+  
+}
+div.img-con{
+    width: auto;
+}
+div img.img-m{
+    width: 36rem;
+    /* margin: 20px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    position: relative;
+    left: 6%;
+}
+div.card-body{
+  
+}
+div h5.card-title{}
+div p.card-text{}
+div a.btn.btn-primary{
+    background-color: #bf4582;
+    border: none;
+    border-radius: 0;
+}
+.brands{
+
+
+}
+.brand{
+
+}
+.brand p {
+    
+
+}
 }

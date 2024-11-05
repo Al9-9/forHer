@@ -16,21 +16,203 @@ nav div form button{}
 .container-logo form{
     /* margin: 5rem; */
 }
-.container-logo form input{}
-.container-logo form button{} 
+.container-logo form input{
+    /* width: 200px; */
+}
+.container-logo form button{
+} 
 h1.head-title{
     color: #4b467e;
     text-align: center;
     margin: 2rem;
 }
+div.cont-i{}
 div.div-i{
 }
 .div-i i{
-    font-size: 30px;
-    color: rgb(15 15 15 / 59%);
+    font-size: 25px;
+    color: #000;
 }
 nav.second-nav{}
 
 nav.second-nav.box-nav{}
 nav.second-nav.box-nav ul{}
 nav.second-nav.box-nav ul li{}
+/* FOOTER */
+footer{}
+footer div.contact-div{}
+footer div.contact-div h3{}
+footer div.contact-div p{}
+footer div.mess-father{}
+footer div.mess-father h3{}
+footer div.mess-father form{}
+footer div.em-div label{}
+footer div.em-div{}
+footer div.em-div input{}
+footer div.mess-child{}
+footer div.mess-child label{}
+footer div.mess-child textarea{}
+
+@media(max-width: 30rem){
+    /* Header css */
+header.header{}
+div.box-container{}
+nav.navbar{}
+nav div.container-fluid{}
+nav div form{}
+nav div form input{}
+nav div form button{}
+.container-logo{
+  
+}
+.container-logo h1{}
+.container-logo form{
+    /* margin: 5rem; */
+}
+.container-logo form input{}
+.container-logo form button{} 
+h1.head-title{
+
+}div.cont-i{}
+div.div-i{
+}
+.div-i i{
+ 
+}
+nav.second-nav{}
+
+nav.second-nav.box-nav{}
+nav.second-nav.box-nav ul{}
+nav.second-nav.box-nav ul li{}
+
+/* FOOTER */
+footer{}
+footer div.contact-div{}
+footer div.contact-div h3{}
+footer div.contact-div p{}
+footer div.mess-father{}
+footer div.mess-father h3{}
+footer div.mess-father form{}
+footer div.em-div label{}
+footer div.em-div{}
+footer div.em-div input{}
+footer div.mess-child{}
+footer div.mess-child label{}
+footer div.mess-child textarea{}
+}
+@media(max-width: 48rem){header.header{}
+div.box-container{}
+nav.navbar{}
+nav div.container-fluid{}
+nav div form{}
+nav div form input{}
+nav div form button{}
+.container-logo{
+  display: flex;
+  flex-direction: column;
+  /* margin: 0; */
+}
+.container-logo h1{}
+.container-logo form{
+    /* margin: 5rem; */
+    /* width: 20em; */
+}
+.container-logo form input{
+    /* width: 200px; */
+    padding: 8px;
+}
+.container-logo form button{padding: 9px;border: solid 1px #86b7fe;} 
+h1.head-title{
+
+}div.cont-i{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 115px;
+    margin: 4px;
+}
+div.div-i{/* display: flex; */}
+.div-i i{
+ 
+}
+nav.second-nav{}
+
+nav.second-nav.box-nav{}
+nav.second-nav.box-nav ul{}
+nav.second-nav.box-nav ul li{}
+/* FOOTER */
+footer{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+footer div.contact-div{}
+footer div.contact-div h3{}
+footer div.contact-div p{}
+footer div.mess-father{}
+footer div.mess-father h3{
+}
+footer div.mess-father form{
+    display: flex;
+    flex-direction: column;
+}
+footer div.em-div label{}
+footer div.em-div{}
+footer div.em-div input{
+    width: px;
+}
+footer div.mess-child{}
+footer div.mess-child label{}
+footer div.mess-child textarea{
+    width: 210px;
+    height: 31px;
+}
+}
+@media(min-width: 75rem){header.header{}
+div.box-container{}
+nav.navbar{}
+nav div.container-fluid{}
+nav div form{}
+nav div form input{}
+nav div form button{}
+.container-logo{
+  
+}
+.container-logo h1{}
+.container-logo form{
+    /* margin: 5rem; */
+}
+.container-logo form input{}
+.container-logo form button{} 
+h1.head-title{
+
+}div.cont-i{}
+div.div-i{
+}
+.div-i i{
+ 
+}
+nav.second-nav{}
+
+nav.second-nav.box-nav{}
+nav.second-nav.box-nav ul{}
+nav.second-nav.box-nav ul li{}
+/* FOOTER */
+footer{}
+footer div.contact-div{}
+footer div.contact-div h3{}
+footer div.contact-div p{}
+footer div.mess-father{}
+footer div.mess-father h3{}
+footer div.mess-father form{}
+footer div.em-div label{}
+footer div.em-div{}
+footer div.em-div input{}
+footer div.mess-child{}
+footer div.mess-child label{}
+footer div.mess-child textarea{}
+}
